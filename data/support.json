@@ -1,0 +1,22 @@
+{
+  "intro": {
+    "title": "Support Us",
+    "text": [
+      "Your smallest contribution makes a big difference to children’s lives.",
+      "We count on the generosity of people like you to be able to create real change for India’s children!",
+      "Thank you so much for supporting us."
+    ]
+  },
+  "account": {
+    "title": "Account Details",
+    "text": [
+      "Account Name: Freedom Group Foundation Society",
+      "Bank Name: YES Bank",
+      "Branch Name: Rishikesh",
+      "Current Account: 039188700000281",
+      "Saving Account: 039194600000682",
+      "IFS Code: YESB0000391"
+    ],
+    "img": "/icons/support/donate.png"
+  }
+}

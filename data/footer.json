@@ -1,0 +1,49 @@
+{
+    "logo": "/images/fglogo.svg",
+    "logoalt": "Freedom Group Rishikesh",
+    "contact": [
+      {
+        "title": "Address",
+        "href": "",
+        "icon": "mdi:map-marker-outline",
+        "class": "mt-4 cursor-text",
+        "text": [
+          "336 A, Chandreshwar Road",
+          "Rishikesh Dehradun",
+          "Uttarakhand-249201"
+        ]
+      },
+      { 
+        "title": "Phone",
+        "href": "telto:+916395515553",
+        "icon": "mdi:phone-outline",
+        "class": "mt-4 hover:text-fgprimary ease-in-out duration-500 cursor-pointer",
+        "text": ["+91 639 551 5553"]
+      },
+      {
+        "title": "Email",
+        "href": "mailto:freedomgrouprishikesh@gmail.com",
+        "icon": "mdi:email-outline",
+        "class": "mt-4 hover:text-fgprimary ease-in-out duration-500 cursor-pointer",
+        "text": ["freedomgrouprishikesh@gmail.com"]
+      }
+    ],
+  
+    "socialtitle": "Follow us on Social media",
+    "socialitems": [
+      {
+        "title":"Facebook",
+        "href": "https://www.facebook.com/freedomgrouprishikesh",
+        "icon": "mdi:facebook"
+      },
+      {
+        "title":"Instagram",
+        "href": "https://www.instagram.com/freedomgrouprishikesh/",
+        "icon": "mdi:instagram"
+      }
+    ],
+    "regtitle": "Registered under", 
+    "regno": "Reg. UK0600882021006607",
+    "copyright": "Freedom Group Rishikesh. All Rights Reserved.",
+    "developer": "Developed by Mohan"
+}

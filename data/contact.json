@@ -1,0 +1,24 @@
+[
+  {
+    "icon": "ph:map-pin-duotone",
+    "href": "",
+    "class": "md:text-normal lg:text-lg",
+    "text": [
+      "#336 A, Chandreshwar Road",
+      "Rishikesh Dehradun",
+      "Uttarakhand-249201"
+    ]
+  },
+  {
+    "icon": "ph:phone-duotone",
+    "href": "telto:+916395515553",
+    "class": "md:text-normal lg:text-lg hover:text-fgprimary ease-in-out duration-500 cursor-pointer",
+    "text": ["+91 639 551 5553"]
+  },
+  {
+    "icon": "ph:envelope-duotone",
+    "href": "mailto:freedomgrouprishikesh@gmail.com",
+    "class": "md:text-normal lg:text-lg hover:text-fgprimary ease-in-out duration-500 cursor-pointer",
+    "text": ["freedomgrouprishikesh@gmail.com"]
+  }
+]

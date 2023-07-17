@@ -1,0 +1,32 @@
+[
+  {
+    "weight": "1",
+    "title": "Home",
+    "url": "/"
+  },
+  {
+    "weight": "2",
+    "title": "About Us",
+    "url": "/#about-us"
+  },
+  {
+    "weight": "3",
+    "title": "What We Do",
+    "url": "/#what-we-do"
+  },
+  {
+    "weight": "4",
+    "title": "Gallery",
+    "url": "/gallery"
+  },
+  {
+    "weight": "5",
+    "title": "Support Us",
+    "url": "/support"
+  },
+  {
+    "weight": "6",
+    "title": "Contact",
+    "url": "/contact"
+  }
+]
