@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { Icon } from "@iconify/react"; 
-import MenuItems from "../data/menu.json";
+import MenuItems from "@data/menu.json";
 
 export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
