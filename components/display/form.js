@@ -2,7 +2,7 @@ import Button from "../ui/button";
 import { useForm, ValidationError } from "@formspree/react";
 
 export default function Form() {
-  const [state, handleSubmit] = useForm("xyyaazpa");
+  const [state, handleSubmit] = useForm("mqkvaqzr");
 
   if (state.succeeded) {
     return <h4 className="text-xl text-center">Thank you for contacting us, we will get back to you as soon as possible.</h4>;
