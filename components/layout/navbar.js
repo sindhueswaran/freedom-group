@@ -54,7 +54,7 @@ export default function NavBar() {
                     key={index}
                     className="text-black text-xl text-center font-normal py-6 md:py-2 px-3 
                     border-b-2 md:border-b-0 border-fgprimary hover:bg-fgprimary active:text-amber-400
-                    hover:text-white hover:text-opacity-60 md:hover:text-slate-500 md:hover:bg-transparent ease-in-out duration-300"
+                    hover:text-white hover:text-opacity-60 md:hover:text-slate-700 md:hover:bg-transparent ease-in-out duration-300"
                   > 
                     <Link href={item.url} onClick={() => setNavbar(false)}>
                       {item.title}
