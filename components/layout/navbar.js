@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { Icon } from "@iconify/react"; 
-import MenuItems from "@data/menu.json";
+import MenuItems from "../data/menu.json";
 
 export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
@@ -13,10 +13,10 @@ export default function NavBar() {
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-1 md:block">
-              <Link href="/">
+              <Link href="/" aria-label="Back home">
                 <Image
                   src="/images/fglogo.svg"
-                  alt=""
+                  alt="Freedom Group Rishikesh"
                   className=""
                   width={100}
                   height={100}
@@ -26,6 +26,7 @@ export default function NavBar() {
                 <button
                   className="p-2 text-gray-700 rounded-md outline-none focus:border-none focus:bordborder-none ease-in-out duration-500"
                   onClick={() => setNavbar(!navbar)}
+                  aria-label="Menu Icon"
                 >
                   {navbar ? (
                     <Icon 

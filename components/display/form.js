@@ -11,9 +11,9 @@ export default function Form() {
   return (
     <>
       <div className="w-full mt-8 lg:mt-0 lg:mx-4 lg:pr-8">
-        <h5 className="mb-4 tracking-wider font-semibold text-3xl">
+        <h6 className="mb-4 tracking-wider font-semibold text-3xl">
           Get In Touch
-        </h5>
+        </h6>
         <form onSubmit={handleSubmit}>
           <div className="grid grid-cols-2 gap-6">
             <label className="block"> 

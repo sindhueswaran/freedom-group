@@ -12,6 +12,7 @@ export default function WWDCard({ post }) {
           className="rounded-t-lg"
           width={640}
           height={480}
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
 
         <div className="p-4">

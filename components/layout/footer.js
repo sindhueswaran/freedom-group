@@ -56,7 +56,7 @@ export default function Footer() {
           </div>
 
           <div className="w-full lg:w-2/6 mt-8 lg:mt-0 lg:mx-4">
-            <h5 className="mt-4  uppercase text-xs tracking-wider font-semibold text-gray-500 ">
+            <h5 className="mt-4  uppercase text-xs tracking-wider font-semibold text-gray-300 ">
               {FooterItems.socialtitle}
             </h5>
             <ul className="flex mt-4  text-white">
@@ -72,7 +72,7 @@ export default function Footer() {
               ))}
             </ul>
 
-            <h5 className="uppercase text-xs tracking-wider font-semibold text-gray-500 mt-8">
+            <h5 className="uppercase text-xs tracking-wider font-semibold text-gray-300 mt-8">
               {FooterItems.regtitle}
             </h5>
             <ul className="flex mt-4 text-white">
@@ -83,10 +83,10 @@ export default function Footer() {
         <div className="pt-4 lg:pt-4 pb-3">
           <hr className="pb-3 border-t-1 border-gray-600" />
           <div className="text-center md:flex justify-between">
-            <p className="text-sm text-gray-600 ">
+            <p className="text-sm text-gray-600" aria-hidden="true">
               © {new Date().getFullYear()} {FooterItems.copyright}
             </p>
-            <p className="text-sm text-gray-600">{FooterItems.developer}</p>
+            <p className="text-sm text-gray-600" aria-hidden="true">{FooterItems.developer}</p>
           </div>
         </div>
       </footer>
