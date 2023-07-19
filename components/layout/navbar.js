@@ -8,7 +8,7 @@ export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
   return (
     <>
-      <nav className="w-full bg-transparent backdrop-blur fixed top-0 left-0 right-0 z-50 shadow-md">
+      <nav className="w-full bg-transparent backdrop-blur-xl fixed top-0 left-0 right-0 z-50 shadow-md">
         {/* <NavContact /> */}
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
